@@ -2,13 +2,17 @@
 *~
 *.sw[a-z0-9]
 
-
-
 ## Universal ctags
 tags
 ctags
 
+## Reveal.js files
+*.tar.gz
+reveal.js/*
 
+# Any Reveal.js plugins that are not in their own git repos or namespaced very
+# well, like all of the chalkboard ones. Make a repo for each of your plugins.
+lib/*
 
 ## Python Files
 # Byte-compiled / optimized / DLL files
