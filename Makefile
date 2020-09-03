@@ -10,7 +10,7 @@ download-revealjs:
 	curl \
 		--output lib/reveal.js-plugins-3.9.0.tar.gz \
 		--progress-bar \
-	  --location \
+		--location \
 		--url "https://github.com/rajgoel/reveal.js-plugins/archive/3.9.0.tar.gz"
 	tar -zxf lib/reveal.js-plugins-3.9.0.tar.gz -C lib/
 	mv lib/reveal.js-plugins-3.9.0/chalkboard reveal.js/plugin/
